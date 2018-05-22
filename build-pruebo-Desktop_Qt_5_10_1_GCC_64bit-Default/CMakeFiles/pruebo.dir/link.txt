@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/pruebo.dir/main.cpp.o  -o pruebo -rdynamic -lgmp -lmpfr 

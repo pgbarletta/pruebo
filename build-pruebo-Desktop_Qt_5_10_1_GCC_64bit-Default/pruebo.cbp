@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="pruebo" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\CGAL-4.12\;CMake Files\..\..\..\..\CGAL-4.12\lib\;CMake Files\..\..\..\..\CGAL-4.12\lib\cmake\;CMake Files\..\..\..\..\CGAL-4.12\lib\cmake\CGAL\;CMake Files\..\..\..\..\CGAL-4.12\cmake\;CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\;CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\config\;CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\config\support\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option working_dir="/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pruebo">
+         <Option output="/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/pruebo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCGAL_HEADER_ONLY=1" />
+            <Add directory="/home/german/CGAL-4.12/lib/cmake/CGAL/../../../include" />
+            <Add directory="/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/7" />
+            <Add directory="/usr/include/c++/7/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 pruebo" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pruebo/fast">
+         <Option output="/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/pruebo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCGAL_HEADER_ONLY=1" />
+            <Add directory="/home/german/CGAL-4.12/lib/cmake/CGAL/../../../include" />
+            <Add directory="/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/7" />
+            <Add directory="/usr/include/c++/7/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 pruebo/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Continuous">
+         <Option working_dir="/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 Continuous" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Experimental">
+         <Option working_dir="/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 Experimental" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Nightly">
+         <Option working_dir="/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 Nightly" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/german/labo/18/pruebo/build-pruebo-Desktop_Qt_5_10_1_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/main.cpp">
+         <Option target="pruebo"/>
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/CGALConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/lib/cmake/CGAL/CGALConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\lib\cmake\CGAL\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_SCM.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_SetupCGALDependencies.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_SetupGMP.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/FindGMP.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_GeneratorSpecificSettings.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/FindMPFR.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_GeneratorSpecificSettings.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/FindGMPXX.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/FindGMP.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_GeneratorSpecificSettings.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_SetupBoost.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_TweakFindBoost.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_setup_target_dependencies.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_CreateSingleSourceCGALProgram.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_add_test.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_VersionUtils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_parse_version_h.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_enable_end_of_configuration_hook.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/UseCGAL.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_Common.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_display_flags.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_GeneratorSpecificSettings.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_TweakFindBoost.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_SCM.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/CGAL_CreateSingleSourceCGALProgram.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/german/labo/18/pruebo/pruebo/../../../../CGAL-4.12/cmake/modules/config/support/CGAL_test_cpp_version.cpp">
+          <Option virtualFolder="CMake Files\..\..\..\..\CGAL-4.12\cmake\modules\config\support\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
